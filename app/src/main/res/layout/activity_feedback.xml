@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/yummy_app_bar"
+        layout="@layout/yummy_app_bar" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#F4511E"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center"
+                android:text="I-Search"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:text="How would you rate\n  your experience?"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:typeface="serif" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:isIndicator="false"
+                android:numStars="5" />
+
+            <TextView
+                android:id="@+id/et_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your experience : "
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="How could we improve?"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/et_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/cardlayout"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint=" Add your comments here"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:scrollbars="vertical"
+                android:textSize="14dp"
+                android:typeface="serif" >
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="#F4511E"
+                android:text="SUBMIT"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

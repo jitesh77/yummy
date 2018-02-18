@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Yummy</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="booking_history">Booking History</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="tabs">
+        <item>Search</item>
+    </string-array>
+
+    <string-array name="tabs2">
+        <item>Map</item>
+        <item>List</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Yummy</string>
+    <string name="title_activity_wishlist">Wishlist</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_settings">Setting</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="Wishlist">Wishlist</string>
+    <string name="title_activity_search_result">Search Result</string>
+    <string name="title_activity_test">Map</string>
+    <string name="title_activity_detail_view">Details</string>
+    <string name="title_activity_place_details">PlaceDetailsActivity</string>
+    <string name="title_activity_splash">Splash</string>
+
+
+
+</resources>

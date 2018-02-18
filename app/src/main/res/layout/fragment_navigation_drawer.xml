@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:context="in.engineer4u.fragment.NavigationDrawerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/primary">
+        
+        <in.engineer4u.util.ImageViewRounded
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/placeholder"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:layout_marginLeft="16dp"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
